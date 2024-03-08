@@ -15,10 +15,10 @@
         </li>
       </ul>
 
-      <form class="d-flex" role="search">
-        <input #txtInput (keyup.enter)="irUsuario(txtInput.value)" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+      <div class="d-flex">
+        <input #txtInput (keyup.enter)="irUsuario(txtInput.value)" class="form-control me-2" placeholder="Buscar" aria-label="Search">
         <button (click)="irUsuario(txtInput.value)" class="btn btn-outline-success">Buscar</button>
-      </form>
+      </div>
     </div>
   </div>
 </nav>
